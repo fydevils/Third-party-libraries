@@ -1,0 +1,16 @@
+PODS:
+  - PermissionScope (1.1.1)
+
+DEPENDENCIES:
+  - PermissionScope
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - PermissionScope
+
+SPEC CHECKSUMS:
+  PermissionScope: a30c16e015779ba27c97c124e7539e27b5829de2
+
+PODFILE CHECKSUM: df05a4c5a4be78a577fa74a204e90920e7e288bf
+
+COCOAPODS: 1.5.3

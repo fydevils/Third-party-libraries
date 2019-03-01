@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EE71E1222240E14002640DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE71E1122240E14002640DB /* AppDelegate.swift */; };
+		3EE71E1422240E14002640DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE71E1322240E14002640DB /* ViewController.swift */; };
+		3EE71E1722240E14002640DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EE71E1522240E14002640DB /* Main.storyboard */; };
+		3EE71E1922240E15002640DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EE71E1822240E15002640DB /* Assets.xcassets */; };
+		3EE71E1C22240E15002640DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EE71E1A22240E15002640DB /* LaunchScreen.storyboard */; };
+		3EE71E2722240E15002640DB /* qwerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE71E2622240E15002640DB /* qwerTests.swift */; };
+		3EE71E3222240E16002640DB /* qwerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE71E3122240E16002640DB /* qwerUITests.swift */; };
+		6F1D5A6E72BF195E8761E17D /* Pods_qwer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDCA69BE4E8B5583AFB6C1C0 /* Pods_qwer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3EE71E2322240E15002640DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EE71E0622240E14002640DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EE71E0D22240E14002640DB;
+			remoteInfo = qwer;
+		};
+		3EE71E2E22240E16002640DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EE71E0622240E14002640DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EE71E0D22240E14002640DB;
+			remoteInfo = qwer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3EE71E0E22240E14002640DB /* qwer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qwer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EE71E1122240E14002640DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3EE71E1322240E14002640DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3EE71E1622240E14002640DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3EE71E1822240E15002640DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3EE71E1B22240E15002640DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3EE71E1D22240E15002640DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EE71E2222240E15002640DB /* qwerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qwerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EE71E2622240E15002640DB /* qwerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qwerTests.swift; sourceTree = "<group>"; };
+		3EE71E2822240E15002640DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EE71E2D22240E16002640DB /* qwerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qwerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EE71E3122240E16002640DB /* qwerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qwerUITests.swift; sourceTree = "<group>"; };
+		3EE71E3322240E16002640DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4198D8EDA05FAB519F22551A /* Pods-qwer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qwer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-qwer/Pods-qwer.debug.xcconfig"; sourceTree = "<group>"; };
+		741BBBC6C6F583F576CD82C3 /* Pods-qwer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qwer.release.xcconfig"; path = "Pods/Target Support Files/Pods-qwer/Pods-qwer.release.xcconfig"; sourceTree = "<group>"; };
+		EDCA69BE4E8B5583AFB6C1C0 /* Pods_qwer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_qwer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EE71E0B22240E14002640DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F1D5A6E72BF195E8761E17D /* Pods_qwer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EE71E1F22240E15002640DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EE71E2A22240E16002640DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EE71E0522240E14002640DB = {
+			isa = PBXGroup;
+			children = (
+				3EE71E1022240E14002640DB /* qwer */,
+				3EE71E2522240E15002640DB /* qwerTests */,
+				3EE71E3022240E16002640DB /* qwerUITests */,
+				3EE71E0F22240E14002640DB /* Products */,
+				5E4C195946C6776EFFF97D79 /* Pods */,
+				64759BE6A3470BC443265DDD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3EE71E0F22240E14002640DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EE71E0E22240E14002640DB /* qwer.app */,
+				3EE71E2222240E15002640DB /* qwerTests.xctest */,
+				3EE71E2D22240E16002640DB /* qwerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EE71E1022240E14002640DB /* qwer */ = {
+			isa = PBXGroup;
+			children = (
+				3EE71E1122240E14002640DB /* AppDelegate.swift */,
+				3EE71E1322240E14002640DB /* ViewController.swift */,
+				3EE71E1522240E14002640DB /* Main.storyboard */,
+				3EE71E1822240E15002640DB /* Assets.xcassets */,
+				3EE71E1A22240E15002640DB /* LaunchScreen.storyboard */,
+				3EE71E1D22240E15002640DB /* Info.plist */,
+			);
+			path = qwer;
+			sourceTree = "<group>";
+		};
+		3EE71E2522240E15002640DB /* qwerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3EE71E2622240E15002640DB /* qwerTests.swift */,
+				3EE71E2822240E15002640DB /* Info.plist */,
+			);
+			path = qwerTests;
+			sourceTree = "<group>";
+		};
+		3EE71E3022240E16002640DB /* qwerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3EE71E3122240E16002640DB /* qwerUITests.swift */,
+				3EE71E3322240E16002640DB /* Info.plist */,
+			);
+			path = qwerUITests;
+			sourceTree = "<group>";
+		};
+		5E4C195946C6776EFFF97D79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4198D8EDA05FAB519F22551A /* Pods-qwer.debug.xcconfig */,
+				741BBBC6C6F583F576CD82C3 /* Pods-qwer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		64759BE6A3470BC443265DDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDCA69BE4E8B5583AFB6C1C0 /* Pods_qwer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EE71E0D22240E14002640DB /* qwer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EE71E3622240E16002640DB /* Build configuration list for PBXNativeTarget "qwer" */;
+			buildPhases = (
+				59C181182F7D0F5DCA638BA5 /* [CP] Check Pods Manifest.lock */,
+				3EE71E0A22240E14002640DB /* Sources */,
+				3EE71E0B22240E14002640DB /* Frameworks */,
+				3EE71E0C22240E14002640DB /* Resources */,
+				9908D5EE81E318B72775A56B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = qwer;
+			productName = qwer;
+			productReference = 3EE71E0E22240E14002640DB /* qwer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3EE71E2122240E15002640DB /* qwerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EE71E3922240E16002640DB /* Build configuration list for PBXNativeTarget "qwerTests" */;
+			buildPhases = (
+				3EE71E1E22240E15002640DB /* Sources */,
+				3EE71E1F22240E15002640DB /* Frameworks */,
+				3EE71E2022240E15002640DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EE71E2422240E15002640DB /* PBXTargetDependency */,
+			);
+			name = qwerTests;
+			productName = qwerTests;
+			productReference = 3EE71E2222240E15002640DB /* qwerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3EE71E2C22240E16002640DB /* qwerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EE71E3C22240E16002640DB /* Build configuration list for PBXNativeTarget "qwerUITests" */;
+			buildPhases = (
+				3EE71E2922240E16002640DB /* Sources */,
+				3EE71E2A22240E16002640DB /* Frameworks */,
+				3EE71E2B22240E16002640DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EE71E2F22240E16002640DB /* PBXTargetDependency */,
+			);
+			name = qwerUITests;
+			productName = qwerUITests;
+			productReference = 3EE71E2D22240E16002640DB /* qwerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EE71E0622240E14002640DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "李娜";
+				TargetAttributes = {
+					3EE71E0D22240E14002640DB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					3EE71E2122240E15002640DB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3EE71E0D22240E14002640DB;
+					};
+					3EE71E2C22240E16002640DB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3EE71E0D22240E14002640DB;
+					};
+				};
+			};
+			buildConfigurationList = 3EE71E0922240E14002640DB /* Build configuration list for PBXProject "qwer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EE71E0522240E14002640DB;
+			productRefGroup = 3EE71E0F22240E14002640DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EE71E0D22240E14002640DB /* qwer */,
+				3EE71E2122240E15002640DB /* qwerTests */,
+				3EE71E2C22240E16002640DB /* qwerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EE71E0C22240E14002640DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EE71E1C22240E15002640DB /* LaunchScreen.storyboard in Resources */,
+				3EE71E1922240E15002640DB /* Assets.xcassets in Resources */,
+				3EE71E1722240E14002640DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EE71E2022240E15002640DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EE71E2B22240E16002640DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		59C181182F7D0F5DCA638BA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-qwer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9908D5EE81E318B72775A56B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-qwer/Pods-qwer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PermissionScope/PermissionScope.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PermissionScope.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-qwer/Pods-qwer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EE71E0A22240E14002640DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EE71E1422240E14002640DB /* ViewController.swift in Sources */,
+				3EE71E1222240E14002640DB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EE71E1E22240E15002640DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EE71E2722240E15002640DB /* qwerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EE71E2922240E16002640DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EE71E3222240E16002640DB /* qwerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3EE71E2422240E15002640DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EE71E0D22240E14002640DB /* qwer */;
+			targetProxy = 3EE71E2322240E15002640DB /* PBXContainerItemProxy */;
+		};
+		3EE71E2F22240E16002640DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EE71E0D22240E14002640DB /* qwer */;
+			targetProxy = 3EE71E2E22240E16002640DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3EE71E1522240E14002640DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EE71E1622240E14002640DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3EE71E1A22240E15002640DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EE71E1B22240E15002640DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3EE71E3422240E16002640DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3EE71E3522240E16002640DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EE71E3722240E16002640DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4198D8EDA05FAB519F22551A /* Pods-qwer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YX5MTH3352;
+				INFOPLIST_FILE = qwer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = foryou.qwer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3EE71E3822240E16002640DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 741BBBC6C6F583F576CD82C3 /* Pods-qwer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YX5MTH3352;
+				INFOPLIST_FILE = qwer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = foryou.qwer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3EE71E3A22240E16002640DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = qwerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = foryou.qwerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/qwer.app/qwer";
+			};
+			name = Debug;
+		};
+		3EE71E3B22240E16002640DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = qwerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = foryou.qwerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/qwer.app/qwer";
+			};
+			name = Release;
+		};
+		3EE71E3D22240E16002640DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = qwerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = foryou.qwerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = qwer;
+			};
+			name = Debug;
+		};
+		3EE71E3E22240E16002640DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = qwerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = foryou.qwerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = qwer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EE71E0922240E14002640DB /* Build configuration list for PBXProject "qwer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EE71E3422240E16002640DB /* Debug */,
+				3EE71E3522240E16002640DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EE71E3622240E16002640DB /* Build configuration list for PBXNativeTarget "qwer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EE71E3722240E16002640DB /* Debug */,
+				3EE71E3822240E16002640DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EE71E3922240E16002640DB /* Build configuration list for PBXNativeTarget "qwerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EE71E3A22240E16002640DB /* Debug */,
+				3EE71E3B22240E16002640DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EE71E3C22240E16002640DB /* Build configuration list for PBXNativeTarget "qwerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EE71E3D22240E16002640DB /* Debug */,
+				3EE71E3E22240E16002640DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EE71E0622240E14002640DB /* Project object */;
+}
