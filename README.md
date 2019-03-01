@@ -21,7 +21,7 @@
 
 
 
-3、AlamofireAlamoFire就是对NSURLSession及其相关的东西进行了进一步的封装，让网络请求使用起来更为简单
+3、Alamofire就是对NSURLSession及其相关的东西进行了进一步的封装，让网络请求使用起来更为简单
 AlamoFire是AF的Swift版本，其中虽然是使用Swift语言实现的，但是实现思路与AFNetWorking大同小异。   
 
 
